@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Notes</title>
+    <link rel="shortcut icon" href="1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="alert"></div>
+    <img src="2.jpg" alt="sorry">
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" onclick="location.reload()" title="Click here to visit Homepage of website">Magic notes</a></li>
+                <li id="about"><a title="Click here to Know about website" href="#">About</a></li>
+                <li id="contact"><a href="#" title="Click here to get contact details">Contact</a></li>
+            </ul>
+            <br>
+            <input type="text" id="search" placeholder="Search here" title="Click outside to Start Search">
+        </nav>
+    </header>
+    <h1>Welcome to Magic Notes</h1>
+    <div class="notes">
+        <form class="notesform">
+           
+            <label for="notes"></label>
+            <h2>Add Title here</h2>
+            <input type="text" id="title" title="title please" placeholder="Enter notes title here" >
+            <br>
+            <h2>Add Details here</h2>
+            <textarea name="notes" id="textarea" cols="55" rows="12" placeholder="enter your notes here" title="Enter your Detailed Notes here"></textarea>
+            <br>
+            <button class="button" id="addNote" title="Enter this button to Submit notes">Add notes</button>
+        </form>
+        <p id="last"><big>Click on Buttons below to View Notes</big><br></p>
+        <div class="card">
+             <div id="none"><br>
+            </div><br></div>
+    </div>
+    <script src="magicnotes.js"></script>
+</body>
+</html>
